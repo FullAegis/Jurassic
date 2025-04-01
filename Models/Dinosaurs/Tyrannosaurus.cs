@@ -1,8 +1,8 @@
 namespace Jurassic.Models.Dinosaurs;
 using Dinosaurs.Attributes;
 
-using TRex = Tyrannosaurus; // Alias for our T.rex;
-[HealthPoints(69)]
+[HealthPoints(300)]
+[Damage(100)]
 public class Tyrannosaurus(in string name) : Dinosaur(name) {
   
 }

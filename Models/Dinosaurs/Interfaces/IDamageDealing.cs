@@ -4,5 +4,5 @@ namespace Jurassic.Models.Dinosaurs.Interfaces;
 
 public interface IDamageDealing {
   public DamageAttribute Damage { get; protected set; }
-  public void DealDamage(IAttackable target);
+  public void Attack(IAttackable target);
 }
